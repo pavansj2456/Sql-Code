@@ -1,0 +1,13 @@
+# Create Empdemo and EmpSalary Table
+create table EmpDemo
+(EmpId int,
+FirstName varchar(50),
+LastName varchar(50),
+Age int,
+Gender varchar(50)
+)
+
+create table EmpSalary
+(EmpId int,
+JobTitle varchar(50),
+salary int)
