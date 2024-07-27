@@ -40,7 +40,7 @@ Insert Into EmpSalary VALUES
 
 
 /*
-select Statement
+Select Statement
 *, Top, Distinct, Count, Max, Min, Avg, As
 */
 
@@ -59,3 +59,9 @@ select count(Gender) as LastNameCount from EmpDemo
 select Max(salary) from EmpSalary
 
 select Min(salary) from EmpSalary
+
+/*
+Where Statement
+=, <>, <, >, And, Or, Like, Null, Not Null, I,
+*/
+
