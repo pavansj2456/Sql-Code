@@ -69,5 +69,9 @@ Where Statement
 
 select * from EmpDemo where FirstName = 'Pavan'     ---select all record which have FirstName Pavan
 
+select * from EmpDemo where FirstName <> 'Pavan'  ------dose not equal to Pavan show all record Except Pavan
+
+select * from EmpDemo where Age > 30 ---------- Age More than 30 or equal
+
 
 
