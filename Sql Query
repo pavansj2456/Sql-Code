@@ -71,7 +71,13 @@ select * from EmpDemo where FirstName = 'Pavan'     ---select all record which h
 
 select * from EmpDemo where FirstName <> 'Pavan'  ------dose not equal to Pavan show all record Except Pavan
 
-select * from EmpDemo where Age > 30 ---------- Age More than 30 or equal
+select * from EmpDemo where Age > 30 ---------- Age More than 30
+
+select * from EmpDemo where Age < 30 ----------Age is less than 30 
+
+select * from EmpDemo where Age < 30 AND Gender = 'Male'    -------Age is less tha 30 and gender is male.
+
+select * from EmpDemo where Age < 30 OR Gender = 'Male'  -------------Age is less tha 30 or gender is male
 
 
 
