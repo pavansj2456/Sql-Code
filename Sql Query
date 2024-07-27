@@ -48,20 +48,26 @@ select * from EmpDemo
 
 select FirstName, LastName from EmpDemo
 
-Select Top 5 * from EmpDemo
+Select Top 5 * from EmpDemo -----------Top 5 rows
 
-select distinct(Gender) from EmpDemo
+select distinct(Gender) from EmpDemo ----------Uniqe Value
 
-select count(FirstName) from EmpDemo
+select count(FirstName) from EmpDemo -----------Count no of record
 
-select count(Gender) as LastNameCount from EmpDemo
+select count(Gender) as LastNameCount from EmpDemo ---------Alias
 
-select Max(salary) from EmpSalary
+select Max(salary) from EmpSalary -------Maximum Salary
 
-select Min(salary) from EmpSalary
+select Min(salary) from EmpSalary -----Minimum Salary
+
+select Avg(salary) from EmpSalary -----Average Salary
 
 /*
 Where Statement
 =, <>, <, >, And, Or, Like, Null, Not Null, I,
 */
+
+select * from EmpDemo where FirstName = 'Pavan'     ---select all record which have FirstName Pavan
+
+
 
