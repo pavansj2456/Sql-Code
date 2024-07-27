@@ -77,6 +77,10 @@ select * from EmpDemo where Age < 30 ----------Age is less than 30
 
 select * from EmpDemo where Age < 30 AND Gender = 'Male'    -------Age is less tha 30 and gender is male.
 
+select * from EmpDemo where LastName like 'J%' --------Last Name start With J
+
+select * from EmpDemo where LastName like '%S%' ------------ anywhere s in LastName
+
 select * from EmpDemo where Age < 30 OR Gender = 'Male'  -------------Age is less tha 30 or gender is male
 
 
